@@ -1,7 +1,4 @@
-me (kssdk-ad-3.3.71-publishRelease-ab68e7ab4a.aar)
-     Duplicate class com.kwad.sdk.DownloadTask$3 found in the following modules: jetified-kssdk-ad-3.3.53.3-runtime (kssdk-ad-3.3.53.3.aar), jetified-kssdk-ad-3.3.57-runtime (kssdk-ad-3.3.57.aar), jetified-kssdk-ad-3.3.61.2-runtime (kssdk-ad-3.3.61.2.aar), jetified-kssdk-ad-3.3.63-runtime (kssdk-ad-3.3.63.aar), jetified-kssdk-ad-3.3.67.1-runtime (kssdk-ad-3.3.67.1.aar) and jetified-kssdk-ad-3.3.71-publishRelease-ab68e7ab4a-runtime (kssdk-ad-3.3.71-publishRelease-ab68e7ab4a.aar)
-     Duplicate class com.kwad.sdk.DownloadTask$4 found in the following modules: jetified-kssdk-ad-3.3.53.3-runtime (kssdk-ad-3.3.53.3.aar), jetified-kssdk-ad-3.3.57-runtime (kssdk-ad-3.3.57.aar), jetified-kssdk-ad-3.3.61.2-runtime (kssdk-ad-3.3.61.2.aar), jetified-kssdk-ad-3.3.63-runtime (kssdk-ad-3.3.63.aar), jetified-kssdk-ad-3.3.67.1-runtime (kssdk-ad-3.3.67.1.aar) and jetified-kssdk-ad-3.3.71-publishRelease-ab68e7ab4a-runtime (kssdk-ad-3.3.71-publishRelease-ab68e7ab4a.aar)
-     Duplicate class com.kwad.sdk.DownloadTask$5 found in the following modules: jetified-kssdk-ad-3.3.53.3-runtime (kssdk-ad-3.3.53.3.aar), jetified-kssdk-ad-3.3.57-runtime (kssdk-ad-3.3.57.aar), jetified-kssdk-ad-3.3.61.2-runtime (kssdk-ad-3.3.61.2.aar), jetified-kssdk-ad-3.3.63-runtime (kssdk-ad-3.3.63.aar), jetified-kssdk-ad-3.3.67.1-runtime (kssdk-ad-3.3.67.1.aar) and jetified-kssdk-ad-3.3.71-publishRelease-ab68e7ab4a-runtime (kssdk-ad-3.3.71-publishRelease-ab68e7ab4a.aar)
+jetified-kssdk-ad-3.3.61.2-runtime (kssdk-ad-3.3.61.2.aar), jetified-kssdk-ad-3.3.63-runtime (kssdk-ad-3.3.63.aar), jetified-kssdk-ad-3.3.67.1-runtime (kssdk-ad-3.3.67.1.aar) and jetified-kssdk-ad-3.3.71-publishRelease-ab68e7ab4a-runtime (kssdk-ad-3.3.71-publishRelease-ab68e7ab4a.aar)
      Duplicate class com.kwad.sdk.DownloadTask$DownloadRequest found in the following modules: jetified-kssdk-ad-3.3.53.3-runtime (kssdk-ad-3.3.53.3.aar), jetified-kssdk-ad-3.3.57-runtime (kssdk-ad-3.3.57.aar), jetified-kssdk-ad-3.3.61.2-runtime (kssdk-ad-3.3.61.2.aar), jetified-kssdk-ad-3.3.63-runtime (kssdk-ad-3.3.63.aar), jetified-kssdk-ad-3.3.67.1-runtime (kssdk-ad-3.3.67.1.aar) and jetified-kssdk-ad-3.3.71-publishRelease-ab68e7ab4a-runtime (kssdk-ad-3.3.71-publishRelease-ab68e7ab4a.aar)
      Duplicate class com.kwad.sdk.KsAdSDKImpl found in the following modules: jetified-kssdk-ad-3.3.53.3-runtime (kssdk-ad-3.3.53.3.aar), jetified-kssdk-ad-3.3.57-runtime (kssdk-ad-3.3.57.aar), jetified-kssdk-ad-3.3.61.2-runtime (kssdk-ad-3.3.61.2.aar), jetified-kssdk-ad-3.3.63-runtime (kssdk-ad-3.3.63.aar), jetified-kssdk-ad-3.3.67.1-runtime (kssdk-ad-3.3.67.1.aar) and jetified-kssdk-ad-3.3.71-publishRelease-ab68e7ab4a-runtime (kssdk-ad-3.3.71-publishRelease-ab68e7ab4a.aar)
      Duplicate class com.kwad.sdk.KsAdSDKImpl$1 found in the following modules: jetified-kssdk-ad-3.3.53.3-runtime (kssdk-ad-3.3.53.3.aar), jetified-kssdk-ad-3.3.57-runtime (kssdk-ad-3.3.57.aar), jetified-kssdk-ad-3.3.61.2-runtime (kssdk-ad-3.3.61.2.aar), jetified-kssdk-ad-3.3.63-runtime (kssdk-ad-3.3.63.aar), jetified-kssdk-ad-3.3.67.1-runtime (kssdk-ad-3.3.67.1.aar) and jetified-kssdk-ad-3.3.71-publishRelease-ab68e7ab4a-runtime (kssdk-ad-3.3.71-publishRelease-ab68e7ab4a.aar)
@@ -2437,8 +2434,27 @@ me (kssdk-ad-3.3.71-publishRelease-ab68e7ab4a.aar)
 > Run with --stacktrace option to get the stack trace.
 > Run with --info or --debug option to get more log output.
 > Run with --scan to get full insights.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:mergeDebugNativeLibs'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.MergeNativeLibsTask$MergeNativeLibsTaskWorkAction
+   > 3 files found with path 'lib/arm64-v8a/libsgcore.so' from inputs:
+      - /Users/apple/.gradle/caches/transforms-3/5d222caedda150701a4b34ea350c6b39/transformed/jetified-kssdk-ad-3.3.63/jni/arm64-v8a/libsgcore.so
+      - /Users/apple/.gradle/caches/transforms-3/818a7ee109fe9b2c7327cd5b2766a053/transformed/jetified-kssdk-ad-3.3.53.3/jni/arm64-v8a/libsgcore.so
+      - /Users/apple/.gradle/caches/transforms-3/7a0c62cd9ae38823a156a4e2074a793a/transformed/jetified-kssdk-ad-3.3.67.1/jni/arm64-v8a/libsgcore.so
+     If you are using jniLibs and CMake IMPORTED targets, see
+     https://developer.android.com/r/tools/jniLibs-vs-imported-targets
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 42s
+BUILD FAILED in 6s
 Error: Gradle task assembleDebug failed with exit code 1
